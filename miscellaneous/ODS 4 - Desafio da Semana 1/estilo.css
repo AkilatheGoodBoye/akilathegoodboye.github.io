@@ -1,0 +1,45 @@
+body {
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+h1 {
+    color: #E6202D;
+    font-size: 30pt;
+    font-weight: bolder;
+    font-family: 'Gill Sans MT';
+    text-shadow: black 1px 2px 2px;
+}
+
+#ods {
+    width: 800px;
+    height: 225px;
+    margin: 0px 20% 110px;
+}
+img {
+    width: 225px;
+    float: left;
+    box-shadow: black 3px 3px 5px;
+    transition: 0.8s;
+}
+img:hover {
+    box-shadow: black 10px 10px 12px;
+    transition: 0.8s;
+}
+h2 {
+    padding: 76px 0px;
+    font-size: 16pt;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+}
+
+#metas {
+    clear: both;
+    font-size: 15pt;
+    font-weight: lighter;
+    font-family: 'Gill Sans MT';
+    border: #BF1B26 4px solid;
+    background-color: #F8F8F8;
+    box-shadow: black 4px 4px 6px;
+    padding: 10px 0px;
+}

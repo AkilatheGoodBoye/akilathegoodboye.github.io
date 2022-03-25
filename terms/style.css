@@ -1,0 +1,67 @@
+body {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 3%;
+}
+
+.titles {
+    font-size: 30pt;
+    font-family: bahnschrift;
+    margin: 10px 0px -15px;
+}
+
+.sub-titles {
+    font-size: 20pt;
+    font-family: bahnschrift light;
+    margin: 40px 0px;
+}
+
+
+h3, p {
+    margin: 5px 0px;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 15pt;
+    font-family: bahnschrift light;
+    background-color: transparent;
+    border: solid 3px black;
+    border-radius: 12px;
+    padding: 12px 20px;
+    cursor: pointer; /* Altera a forma do cursor quando o mesmo fica em cima do objeto*/
+    transition: 0.25s;
+}
+
+button:hover {
+    color: #0037cf;
+    border: solid 3px #0037cf;
+}
+
+button:focus {
+    color: #0037cf;
+    border: solid 3px #0037cf;
+    border-radius: 10px;
+    padding: 80px 20px;
+    outline: none; /* Borda que aparece quando o botão está clicado*/
+}
+
+.pgraphs {
+    font-size: 15pt;
+    font-family: bahnschrift light;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    background-color: #fcfcfc;
+    color: black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#logo {
+    width: 110px;
+    position: absolute;
+    background-color: #fcfcfc;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    margin: 0% 5%;
+    padding-left: 0;
+    font-family: Arial;
+}
+
+li {
+    float: left;
+    padding: 28px 20px 27px ;
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li:hover {
+    background-color: #01acea;
+    transition: 0.15s;
+}
+
+#imgfundo {
+    background: url("imgs/fundo.jpg");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: black 3px 3px 2px;
+}
+
+#title {
+    padding-top: 20%;
+    margin-bottom: 25px;
+    font-size: 75px;
+    line-height: 0.6;
+}
+
+#sbtitle {
+    margin: 0% 20% 10%;
+    border-top: 5px solid white;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#action {
+    color: white;
+    border: 2px white solid;
+    background-color: grey;
+    text-shadow: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: Arial;
+}
+#action:hover {
+    box-shadow: black 0px 0px 10px;
+    transition: 0.1s;
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+
+.c2 {
+    width: 40%;
+}
+
+.c3 {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.c4 {
+    width: 15%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.destaque {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.icons {
+    width: 51px;
+}
+
+.imgeco {
+    width: 100%;
+    height: 40%;
+}
+
+footer {
+    background-color: #01acee;
+    float: left;
+    width: 100%;
+    padding: 10px 0px 60px;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+
+    .coluna, .c2, .c3, .c4 {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #logo {
+        margin-left: 0;
+        transform: translateX(-50%);
+    }
+}
