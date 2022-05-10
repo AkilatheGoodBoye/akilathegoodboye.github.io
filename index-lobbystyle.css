@@ -10,7 +10,7 @@ h1 {
     font-size: 30pt;
     background-color: #f0d67a;
     padding: 20px 350px;
-    border: solid 3px #521a00;
+    border: solid 3px black;
     border-radius: 5px;
 }
 
@@ -20,8 +20,13 @@ h2 {
 
 #buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+}
+
+.rws {
+    display: flex;
+    flex-direction: row;
 }
 
 a {
@@ -39,6 +44,6 @@ a {
 }
 
 a:hover {
-    border: solid 3px #521a00;
+    border: solid 3px black;
     background-color: #e0c64c;
 }
