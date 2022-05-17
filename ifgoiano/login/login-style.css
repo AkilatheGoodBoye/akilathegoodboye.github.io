@@ -54,13 +54,10 @@ header {
 }
 
 li {
-    padding: 28px 30px 27px;
+    padding: 28px 40px 27px;
     font-size: 16pt;
-}
-
-li:hover {
     background-color: #00610d;
-    transition: 0.15s;
+    letter-spacing: 4px;
 }
 
 /* Título */
@@ -78,19 +75,47 @@ li:hover {
     flex-direction: column;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 #title {
-    font-size: 65px;
-    margin: 0px;
+    font-size: 40px;
 }
 
-#sbtitle {
-    border-top: 5px solid white;
-    font-size: 25px;
-    margin: 10px 0px 30px;
-    padding: 10px;
+form {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+}
+
+input {
+    width: 360px;
+    height: 55px;
+    border-radius: 15px;
+    border: solid black 3px;
+    box-shadow: black 8px 6px 1px;
+    text-align: center;
+    font-size: 18px;
+}
+
+input#bt {
+    margin: 40px 0px 0px 50%;
+    width: 180px;
+    height: 55px;
+    background-color: #206525;
+    color: white;
+    cursor: pointer;
+
+}
+
+#bt:hover {
+    background-color: #105515;
+    transition: 0.25s;
 }
 
 #action {
@@ -111,33 +136,69 @@ li:hover {
     transition: 0.2s;
 }
 
+#logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#logo {
+    margin-left: 0;
+    transform: translateX(-50%);
+}
+
 /* Responsividade */
 
-@media all and (max-width: 999px) {
-    #menu {
-        visibility: hidden;
+@media all and (max-width: 1125px) {
+    iframe {
+        width: 460px;
     }
 
-    #logodiv {
-        width: 100%;
-        position: relative;
-        text-align: center;
+    #text-ods {
+        width: 480px;
     }
+}
 
-    #logo {
-        margin-left: 0;
-        transform: translateX(-50%);
+@media all and (max-width: 425px) {
+    h3 {
+        font-size: 30px;
     }
 
     #text-title {
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     #title {
-        font-size: 300%;
+        font-size: 60px;
     }
 
     #sbtitle {
-        width: 80%;
+        width: 300px;
+    }
+}
+
+@media all and (max-height: 425px) {
+    header {
+        height: 60px;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+    #text-title {
+        margin-top: 70px;
+    }
+    
+    #title {
+        font-size: 30px;
+    }
+
+    #sbtitle {
+        font-size: 15px;
+    }
+
+    #action {
+        font-size: 15px;
     }
 }
