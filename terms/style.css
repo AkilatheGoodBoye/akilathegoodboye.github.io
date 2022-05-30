@@ -2,18 +2,17 @@ body {
     display: flex;  
     flex-direction: column;
     align-items: center;
+    font-family: "Arial Light";
     margin: 2% 3%;
 }
 
 .titles {
     font-size: 30pt;
-    font-family: bahnschrift;
     margin: 10px 0px -15px;
 }
 
 .sub-titles {
     font-size: 20pt;
-    font-family: bahnschrift light;
     margin: 40px 0px;
 }
 
@@ -34,12 +33,11 @@ h3, p {
 
 button {
     font-size: 15pt;
-    font-family: bahnschrift light;
     background-color: transparent;
     border: solid 3px black;
     border-radius: 12px;
     padding: 12px 20px;
-    cursor: pointer; /* Altera a forma do cursor quando o mesmo fica em cima do objeto*/
+    cursor: pointer; /* Altera o cursor ao ficar sobre um objeto*/
     transition: 0.25s;
 }
 
@@ -58,7 +56,6 @@ button:focus {
 
 .pgraphs {
     font-size: 15pt;
-    font-family: bahnschrift light;
 }
 
 #data {

@@ -1,0 +1,76 @@
+
+/* Corpo do Site*/
+
+body {
+    margin: 3%;
+    background-color: #303030;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-family: monospace;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* Seções */
+
+section {
+    width: 40%;
+    display: flex;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line {
+    border: 2px solid black;
+}
+
+.sec-vet {
+    width: 100%;
+    height: 42%;
+}
+
+/* Texto */
+
+.bckgrnd {
+    width: 100%;
+}
+
+h3 {
+    font-size: 15pt;
+    margin: 2px 0px;
+    padding: 8px 20px;
+}
+
+/* Backgrounds */
+
+.easyt {
+    color: #00a143;
+}
+.easyb {
+    background-color: #015f30;
+}
+
+.normalt {
+    color: #ccad00;
+}
+.normalb {
+    background-color: #745900;
+}
+
+.hardt {
+    color: #cc7400;
+}
+.hardb {
+    background-color: #744200;
+}
+
+.hardcoret {
+    color: #b40000;
+}
+.hardcoreb { 
+    background-color: #740e00;
+}
