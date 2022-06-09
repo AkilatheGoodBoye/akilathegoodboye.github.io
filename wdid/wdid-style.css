@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+
+    display: grid;
+    place-items: center;
+
+    font-family: 'cursive';
+
+    background-color: #6495ed;
+
+}
+
+/* Transições */
+
+body, div, button, h1 {
+    transition: 2s;
+}
+
+/* Corpo do Site */
+
+button {
+    padding: 50px 80px;
+    border: solid 5px black;
+    border-radius: 50px 0px;
+    
+    background-color: transparent;
+
+    cursor: pointer;
+
+    
+}
+
+h1 {
+    margin: 0px;
+
+    font-weight: inherit;
+    font-size: 50pt;
+    font-style: italic;
+}
