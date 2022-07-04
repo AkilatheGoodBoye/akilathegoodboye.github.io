@@ -1,7 +1,6 @@
 body {
     font-family: monospace;
     font-size: 18pt;
-    color: #00ff00;
     background-color: black;
     margin: 55px 50px;
 }
@@ -11,12 +10,14 @@ body {
 h2 {
     font-size: 32pt;
     margin-bottom: 25px;
+    color: #00ff00;
 }
 
 h3 {
     font-weight: normal;
     text-decoration: underline;
     font-style: italic;
+    color: #008800;
 }
 
 li {
@@ -28,7 +29,7 @@ li {
 
 a {
     text-decoration: none; /* Retira o sublinhado padrão dos links*/
-    color: #00ff00;
+    color: #3D9971;
     transition: 0.4s;
     font-size: 16pt;
 }

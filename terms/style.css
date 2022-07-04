@@ -6,14 +6,14 @@ body {
     margin: 2% 3%;
 }
 
-.titles {
+h1 {
     font-size: 30pt;
-    margin: 10px 0px -15px;
+    margin: 10px 0px 0px 0px;
 }
 
-.sub-titles {
+h2 {
     font-size: 20pt;
-    margin: 40px 0px;
+    margin: 30px 0px;
 }
 
 
@@ -21,17 +21,14 @@ h3, p {
     margin: 5px 0px;
 }
 
-.interface {
-    display: flex;
-    flex-direction: column;
-}
-
 #buttons {
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
 
 button {
+    margin: 5px;
     font-size: 15pt;
     background-color: transparent;
     border: solid 3px black;
@@ -46,19 +43,12 @@ button:hover {
     border: solid 3px #0037cf;
 }
 
-button:focus {
-    color: #0037cf;
-    border: solid 3px #0037cf;
-    border-radius: 10px;
-    padding: 80px 20px;
-    outline: none; /* Borda que aparece quando o botão está clicado*/
+p {
+    transition: 0.25s;
+    font-size: 0pt;
+    margin: 0px;
 }
 
-.pgraphs {
-    font-size: 15pt;
-}
-
-#data {
-    display: flex;
-    flex-direction: row;
+.show {
+    font-size: 16pt;
 }
